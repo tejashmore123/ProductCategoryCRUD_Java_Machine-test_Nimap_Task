@@ -1,1 +1,3 @@
-# ProductCategoryCRUD_Java_Machine-test_Nimap_Task
+# ProductCategoryCRUD_Java_Machine-test_Nimap_Task 
+description
+This Spring Boot application uses RESTful APIs to manage products and categories, with server-side pagination for listing products. It connects to a relational database (RDB) using JPA and Hibernate to handle entities and relationships. The product and category entities have a one-to-many relationship, where each category can have multiple products. Configuration is done entirely using annotations, with no XML configuration. When fetching a single product, the response includes the associated category details. The project is designed to be scalable and easy to maintain with best practices.
